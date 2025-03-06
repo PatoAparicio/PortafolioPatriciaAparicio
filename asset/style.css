@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+ }
+
+.navbar-nav .nav-link {
+    transition: all 0.3s ease-in-out; 
+}
+.navbar-nav .nav-link:hover{
+    font-size: 1.2rem;
+    color:#FF5841;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgba(95, 11, 50, 0.2); 
+}
+
+.navbar-toggler {
+    border: 3px solid transparent; 
+    transition: border-color 0.3s ease;
+}
+
+.navbar-toggler:hover {
+    border-color: #FF5841; 
+    box-shadow: 5px 5px 5px rgba(95, 11, 50, 0.2); 
+}
+section {
+    scroll-margin-top: 80px; 
+  }
+body {
+    padding-top: 80px; /* Ajusta según la altura del navbar */
+}  
+.img-profile{
+    border: 10px solid rgba(0, 0, 0, 0.07);
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 100%; /* Evita que la imagen se desborde */
+    height: auto; /* Mantiene la proporción */
+    width: 300px;   
+}
+
+.titulo-especial{
+    color: #FF5841;
+    text-shadow: 5px 5px 5px rgba(95, 11, 50, 0.2);
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 1%;
+}
+p{
+    text-align: justify;    
+}
+.icon{
+    color: #C53678;
+    padding-inline: 10px;
+    align-self: center;
+} 
+.icon:hover{
+    size: 1.2rem;
+}
+.button{
+    border: 2px solid #C53678;    
+}
+ul li{
+    display: flex;
+    list-style: none;
+    justify-content: start;
+}
+
+h2, h4 {
+    text-align: center;
+    width: 100%; /* Asegura que ocupen todo el ancho disponible */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se acomoden solos */
+    justify-content: center; /* Asegura que los elementos estén centrados */
+    align-items: center; /* Alinea verticalmente */
+}
+
+.col-12.col-md-6 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* Centra la imagen y contenido horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Centra los textos cuando sea necesario */
+}
+.tech-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #C53678; /* #FF5841;*/
+    padding: 6px 12px;
+    border: 2px solid #FF5841;/* #C53678;*/
+    border-radius:10%;
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  
+  .tech-badge i {
+    font-size: 16px;
+  }
+
+  .card-proyectos{
+    gap: 6px;
+    padding: 6px 12px;
+    border: 2px solid #FF5841;/* #C53678;*/
+    border-radius:10%;
+    font-size: 14px;
+  }
+  hr {
+    border: none;
+    height: 2px;
+    background-color: #C53678; /* Color de la línea */
+    width: 100%; /* Que ocupe todo el ancho de la columna */
+  }
+  
