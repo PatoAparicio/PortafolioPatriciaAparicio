@@ -115,4 +115,6 @@ h2, h4 {
     background-color: #C53678; /* Color de la línea */
     width: 100%; /* Que ocupe todo el ancho de la columna */
   }
-  
+  .card-img-top{
+    border-radius: 10px;
+  }
